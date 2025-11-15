@@ -26,7 +26,7 @@ With blockchain security and complete traceability, AlgoHealX aims to eliminate 
 
 ---
 
-## 🚀 Features
+### 🚀 Features
 
 - **Immutable Records**: Every medicine batch is tracked on the Algorand blockchain
 - **Supply Chain Transparency**: Full visibility from manufacturing to consumer
@@ -36,7 +36,7 @@ With blockchain security and complete traceability, AlgoHealX aims to eliminate 
 
 ---
 
-## 🛠️ Technology Stack
+### 🛠️ Technology Stack
 
 - **Blockchain**: Algorand
 - **Smart Contracts**: PyTeal
@@ -45,33 +45,68 @@ With blockchain security and complete traceability, AlgoHealX aims to eliminate 
 - **State Management**: TanStack Query
 
 ---
+## 🛠️ Setup & Installation
 
-## 📦 Installation
+### **Prerequisites**
+Ensure these tools are installed:
 
-### Prerequisites
+- AlgoKit CLI  
+- Docker (required for LocalNet)  
+- Node.js & npm  
+- Python 3.10+  
 
-- Node.js & npm ([install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating))
-- Algorand wallet
+---
 
-### Setup
+## ⚙️ Initial Setup
 
-```bash
-# Clone the repository
-git clone <YOUR_GIT_URL>
+### **1. Clone the Repository**
+```sh
+git clone https://github.com/nikshiptha2505/AlgoHealX.git
+```
 
-# Navigate to project directory
-cd algohealx
+### **2. Open Command Prompt in the Project Folder**
 
-# Install dependencies
-npm install
+### **3. Start AlgoKit LocalNet**
 
-# Start development server
-npm run dev
+```sh
+algokit localnet start
+```
+
+### **4. Install All Dependencies**
+
+```sh
+algokit project bootstrap all
+```
+
+### **5. Build the Entire Project (Contracts + Frontend)**
+
+```sh
+algokit project build
 ```
 
 ---
 
-## 🔐 Security
+## 🌐 Run the Frontend
+
+### **6. Navigate to the Frontend Folder**
+
+```sh
+cd projects
+cd AlgoHealX-frontend
+```
+
+### **7. Start the Development Server**
+
+```sh
+npm run dev
+```
+
+The website will be available at:
+
+👉 **[http://localhost:8080](http://localhost:8080)**
+
+---
+### 🔐 Security
 
 AlgoHealX leverages Algorand's Pure Proof-of-Stake consensus mechanism to ensure:
 
