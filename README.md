@@ -100,6 +100,16 @@ The website will be available at:
 👉 **[http://localhost:8080](http://localhost:8080)**
 
 ---
+
+## 📱 Live Deployment
+
+Our smart contract is deployed and running on the **Algorand TestNet**:
+
+🔗 **Contract Address**: [View on Lora Explorer](https://lora.algokit.io/testnet/application/749652245)
+
+![AlgoHealX Smart Contract on Lora](./public/loraapp.jpg)
+
+---
 #### 🔐 Security
 
 AlgoHealX leverages Algorand's Pure Proof-of-Stake consensus mechanism to ensure:
