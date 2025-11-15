@@ -53,8 +53,6 @@ Ensure these tools are installed:
 - Node.js & npm  
 - Python 3.10+  
 
----
-
 ### ⚙️ Initial Setup
 
 #### **1. Clone the Repository**
