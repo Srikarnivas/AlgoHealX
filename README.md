@@ -33,6 +33,15 @@ With blockchain security and complete traceability, AlgoHealX aims to eliminate 
 - **Multi-Stakeholder Access**: Role-based access for all supply chain participants
 - **Consumer Verification**: End users can verify medicine authenticity
 
+#### 🔐 Security
+
+AlgoHealX leverages Algorand's Pure Proof-of-Stake consensus mechanism to ensure:
+
+- **High Security**: Cryptographic verification of all transactions
+- **Immutability**: Records cannot be altered or deleted
+- **Decentralization**: No single point of failure
+- **Fast Finality**: Transactions confirmed in seconds
+
 
 ### 🛠️ Technology Stack
 
@@ -149,36 +158,17 @@ AlgoHealX/
 - **Build Tool**: Vite
 - **State Management**: TanStack Query
 
----
-#### 🔐 Security
 
-AlgoHealX leverages Algorand's Pure Proof-of-Stake consensus mechanism to ensure:
+### 🌐 Links
 
-- **High Security**: Cryptographic verification of all transactions
-- **Immutability**: Records cannot be altered or deleted
-- **Decentralization**: No single point of failure
-- **Fast Finality**: Transactions confirmed in seconds
+Our Project deployed frontend link:
+
+- **Project URL**: [https://algohealx.netlify.app/](https://algohealx.netlify.app/)
 
 ---
-
-### 🤝 Contributing
-
-We welcome contributions from the community! Please read our contributing guidelines before submitting pull requests.
-
----
-
 ### 📄 License
 
 This project is licensed under the MIT License.
 
 ---
-
-### 🌐 Links
-
-- **Project URL**: https://lovable.dev/projects/bd68e73d-dc78-4f12-9a63-907393a63b8c
-- **Documentation**: Coming soon
-- **Support**: Contact our team for support
-
----
-
 **Built with ❤️ for a safer pharmaceutical future**
