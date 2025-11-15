@@ -110,6 +110,46 @@ Our smart contract is deployed and running on the **Algorand TestNet**:
 ![AlgoHealX Smart Contract on Lora](./public/loraapp.jpg)
 
 ---
+## 🏗️ Architecture & Components
+
+AlgoHealX is built on the **AlgoKit Fullstack Template**, providing a complete blockchain solution with the following architecture:
+
+### **Smart Contract Layer**
+- **Drug Batch Lifecycle Management**: Handles full lifecycle operations—registration, approval, transfer, delivery, and verification of a medicine batch on Algorand.
+- **Role-Based Access Control**: Enforces secure permissions for admin, producer, and regulator using on-chain sender checks.
+- **Batch Metadata Storage**: Stores immutable and updatable batch details such as batch ID, drug name, manufacturer, dates, quantity, compliance score, and verification history.
+- **Regulatory Authorization Workflow**: Enables regulators to approve, reject, or mark counterfeit, with proper audit timestamps and reasons.
+- **Transfer & Supply Chain Tracking**: Tracks every movement of the drug batch, including sender, receiver, location, transfer count, and delivery confirmation.
+- **QR & Authenticity Validation**: Stores a hash for QR verification, counts verification attempts, and enables authenticity checks across the supply chain.
+
+### **Frontend Application (React + TypeScript)**
+Located in `projects/AlgoHealX-frontend/`:
+- **User Interfaces**: Role-specific dashboards for manufacturers, regulators, distributors, pharmacies, and consumers
+- **Wallet Integration**: Connects to Algorand wallets for transaction signing
+- **Database Integration**: Supabase backend for user management and data persistence
+- **QR Code System**: Generates and verifies medicine batch QR codes
+- **Real-time Tracking**: Displays medicine journey across the supply chain
+
+### **Project Structure**
+```
+AlgoHealX/
+├── projects/
+│   ├── AlgoHealX-contracts/     # Python smart contracts
+│   └── AlgoHealX-frontend/      # React frontend application
+├── .algokit/                     # AlgoKit configuration
+└── .vscode/                      # Development environment settings
+```
+
+### **Key Technologies**
+- **Blockchain Platform**: Algorand (TestNet deployment)
+- **Smart Contract Language**: PyTeal
+- **Frontend Framework**: React 18.3.1 with TypeScript
+- **Backend & Database**: Supabase (PostgreSQL, Authentication, Storage)
+- **Styling**: Tailwind CSS + shadcn/ui components
+- **Build Tool**: Vite
+- **State Management**: TanStack Query
+
+---
 #### 🔐 Security
 
 AlgoHealX leverages Algorand's Pure Proof-of-Stake consensus mechanism to ensure:
