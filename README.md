@@ -1,5 +1,14 @@
 # 🎯 AlgoHealX – Blockchain Medicine Tracking System
 
+[![Algorand](https://img.shields.io/badge/Blockchain-Algorand-000000?style=for-the-badge&logo=algorand&logoColor=white)](https://algorand.com)
+[![PyTeal](https://img.shields.io/badge/Smart_Contracts-PyTeal-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://pyteal.readthedocs.io)
+[![React](https://img.shields.io/badge/React-18.3.1-61DAFB?style=for-the-badge&logo=react&logoColor=black)](https://reactjs.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
+[![Healthcare](https://img.shields.io/badge/Industry-Healthcare-FF6B6B?style=for-the-badge&logo=heart&logoColor=white)]()
+[![Supply Chain](https://img.shields.io/badge/Use_Case-Supply_Chain-4ECDC4?style=for-the-badge&logo=truck&logoColor=white)]()
+
+
 ## 🔭 Overview
 
 AlgoHealX is a next-generation blockchain-based medicine tracking system designed to eliminate counterfeit drugs and bring complete transparency to the pharmaceutical supply chain.
