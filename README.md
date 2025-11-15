@@ -24,7 +24,6 @@ Every transaction is **tamper-proof**, **auditable**, and **verifiable**, making
 
 With blockchain security and complete traceability, AlgoHealX aims to eliminate counterfeit medicines and bring **trust**, **safety**, and **transparency** to healthcare supply chains.
 
----
 
 ### 🚀 Features
 
@@ -34,7 +33,6 @@ With blockchain security and complete traceability, AlgoHealX aims to eliminate 
 - **Multi-Stakeholder Access**: Role-based access for all supply chain participants
 - **Consumer Verification**: End users can verify medicine authenticity
 
----
 
 ### 🛠️ Technology Stack
 
@@ -57,45 +55,43 @@ Ensure these tools are installed:
 
 ---
 
-## ⚙️ Initial Setup
+### ⚙️ Initial Setup
 
-### **1. Clone the Repository**
+#### **1. Clone the Repository**
 ```sh
 git clone https://github.com/nikshiptha2505/AlgoHealX.git
 ```
 
-### **2. Open Command Prompt in the Project Folder**
+#### **2. Open Command Prompt in the Project Folder**
 
-### **3. Start AlgoKit LocalNet**
+#### **3. Start AlgoKit LocalNet**
 
 ```sh
 algokit localnet start
 ```
 
-### **4. Install All Dependencies**
+#### **4. Install All Dependencies**
 
 ```sh
 algokit project bootstrap all
 ```
 
-### **5. Build the Entire Project (Contracts + Frontend)**
+#### **5. Build the Entire Project (Contracts + Frontend)**
 
 ```sh
 algokit project build
 ```
 
----
+### 🌐 Run the Frontend
 
-## 🌐 Run the Frontend
-
-### **6. Navigate to the Frontend Folder**
+#### **6. Navigate to the Frontend Folder**
 
 ```sh
 cd projects
 cd AlgoHealX-frontend
 ```
 
-### **7. Start the Development Server**
+#### **7. Start the Development Server**
 
 ```sh
 npm run dev
@@ -106,7 +102,7 @@ The website will be available at:
 👉 **[http://localhost:8080](http://localhost:8080)**
 
 ---
-### 🔐 Security
+#### 🔐 Security
 
 AlgoHealX leverages Algorand's Pure Proof-of-Stake consensus mechanism to ensure:
 
@@ -117,19 +113,19 @@ AlgoHealX leverages Algorand's Pure Proof-of-Stake consensus mechanism to ensure
 
 ---
 
-## 🤝 Contributing
+### 🤝 Contributing
 
 We welcome contributions from the community! Please read our contributing guidelines before submitting pull requests.
 
 ---
 
-## 📄 License
+### 📄 License
 
 This project is licensed under the MIT License.
 
 ---
 
-## 🌐 Links
+### 🌐 Links
 
 - **Project URL**: https://lovable.dev/projects/bd68e73d-dc78-4f12-9a63-907393a63b8c
 - **Documentation**: Coming soon
