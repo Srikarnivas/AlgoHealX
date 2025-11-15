@@ -13,7 +13,7 @@
 
 AlgoHealX is a next-generation blockchain-based medicine tracking system designed to eliminate counterfeit drugs and bring complete transparency to the pharmaceutical supply chain.
 
-Using **Algorand smart contracts (PyTeal)**, AlgoHealX ensures that every stage of a medicine batch's journey is recorded immutably — from manufacturing ➝ regulatory approval ➝ distribution ➝ pharmacy delivery ➝ consumer verification.
+Using **Algorand smart contracts**, AlgoHealX ensures that every stage of a medicine batch's journey is recorded immutably — from manufacturing ➝ regulatory approval ➝ distribution ➝ pharmacy delivery ➝ consumer verification.
 
 Every transaction is **tamper-proof**, **auditable**, and **verifiable**, making AlgoHealX a trusted solution for:
 
